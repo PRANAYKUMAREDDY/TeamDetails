@@ -1,0 +1,54 @@
+Exec sp_help Student;
+
+Select * from Student
+
+Insert into Student values(2, 'pradeep', 'M', 24, 97),
+(3, 'wefwe', 'F', 20, 12),
+(4, 'anef', 'F', 12, 123)
+
+
+create table std(id int primary key, name varchar(20) not null, gender varchar(20), age int, marks int)
+
+insert into std
+select * from Student
+
+select * from std
+
+update Student set marks = 100 where id = 4
+
+update Student set age = 22, marks = 80 where id=3
+
+
+Delete from Student where name='wefwe'
+
+Delete from std
+
+select * from std;
+
+
+create table EMP(empno int primary key, name varchar(10) not null, job varchar(10), join_date date, salary decimal(7,2), email varchar(30))
+
+
+insert into EMP values(2, 'abc', 's/w', '2024-09-18', 22203.10, 'abc@gmail.com'),
+					  (3, 'cd', 'business', '2024-12-18', 10220.12, 'cd@gmail.com'),
+					  (4, 'def', 'H/w', '2024-01-18', 32203.00, 'def@gmail.com'),
+					  (5, 'fgh', 's/w', '2024-10-30', 203.10, 'fgh@gmail.com'),
+					  (6, 'hij', 'H/w', '2024-12-18', 82203.80, 'hij@gmail.com'),
+					  (7, 'ijf', 'business', '2024-07-10', 1020.42, 'ijf@gmail.com'),
+					  (8, 'klm', 's/w', '2024-06-20', 222.90, 'klm@gmail.com'),
+					  (9, 'lmn', 'studying', '2024-05-26', 2213.84, 'lmn@gmail.com'),
+					  (10, 'xyz', 's/w', '2024-06-15', 10203.65, 'xyz@gmail.com')
+
+select * from EMP
+
+
+
+
+create table Dept(deptno int primary key, dname varchar(10) not null, loc varchar(10))
+
+
+Alter table EMP Add dept int;
+
+Alter table EMP Add constraint fk_emp_dept foreign key(dept) references Dept(deptno)
+
+exec sp_help EMP;

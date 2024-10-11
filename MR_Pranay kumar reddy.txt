@@ -1,0 +1,103 @@
+Customer stories(5):
+
+As a Customer i want to select the food items from Restaurant in a effective way
+
+Acceptance criteria:
+1. Should be able to Display the menu items as a category wise like starters, veg, non-veg etc.
+2. show the reviews of the items of a particular restaurant.
+3. Should Display the prices below the each and every item.
+
+
+As a customer, I want to access an personal food assistant like chatbot.
+
+Acceptance Criteria:
+
+1.Should be able to get personalized menu recommendations based on past orders   and preferences
+2. Should receive suggestions for food pairings and complementary dishes
+3. Should be able to get help with special dietary requirements.
+4. Should be able to receive personalized health and wellness tips related to food choices
+
+As a customer, I want to create and share custom meal plans
+
+Acceptance Criteria:
+
+1. Should be able to create weekly meal plans from available restaurant options
+2. Should be able to share meal plans with friends or on social media
+3. Should be able to easily order all meals in the plan with one click
+4. Should receive suggestions for balanced meal combinations
+
+
+As a customer, I want to engage with a food-centric social platforms.
+
+Acceptance Criteria:
+
+1. Should be able to create a foodie profile with favorite cuisines and dishes
+2. Should be able to follow friends and see their food activity and recommendations
+3. Should be able to create and share food-related content (reviews, photos, videos)
+
+
+
+Restaurant stories(5)
+
+As a Restaurant owner i want to manage orders, through the restaurant dashboard from mobile application or other channels.
+
+Acceptance Criteria:
+
+1. The restaurant receives the order through the mobile application or other channels.
+2. The restaurant verifies the order details like food items, quantity.
+3. The prepared food meets the restaurant quality standards.
+4. the food is packaged correctly.
+5.The restaurant notifies the customer through the mobile application when the order is ready.
+
+
+As a restaurant owner, I want to offer dynamic pricing based on demand such as birthday parties, weddings etc.
+
+Acceptance Criteria:
+
+1. Should be able to set rules for automatic price adjustments
+2. Should be able to analyze the impact of dynamic pricing on revenue
+3. Should be able to communicate price changes to customers transparently
+
+
+
+As a restaurant manager, I want to use predictive analytics for inventory management.
+
+Acceptance Criteria:
+
+1. Should receive AI-powered predictions for ingredient needs based on historical data and upcoming events
+2. Should be able to view potential cost savings from predictive ordering
+3. Should be able to adjust predictions based on local knowledge or special circumstances
+
+
+Delivery driver stories(3):
+
+As a delivery driver I want to manage the delivery orders, navigate to pickup and dropoff locations, and track the status of delivery.
+
+Acceptance criteria:
+1. The delivery boy receives assigned order through the mobile application.
+2. The delivery boy verify the order details such as location and area.
+3. The delivery boy uses a GPS navigation system to ensure efficient and timely delivery.
+4. The delivery boy needs to deliver the order to the customer's address within the designated timeframe.
+
+
+
+As a delivery driver, I want to participate in a peer to peer support network
+
+Acceptance criteria:
+1. Should be able to join or create local driver communities.
+2. Should be able to share tips, advise with other drivers.
+3.should be able to organize or participate in local driver meetups or events.
+
+
+
+As a delivery driver, I want to access a predictive multi-modal transportation system
+
+Acceptance Criteria:
+
+1. Should receive suggestions for the fastest delivery method (car, bike,       walking) based on current conditions
+2. Should be able to seamlessly switch between transportation modes.
+3.Should receive real-time updates on public transportation options if applicable
+
+
+
+
